@@ -1,0 +1,417 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assests/bg.png');
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Open Sans', 'Alegreya', 'Roboto', 'Helvetica', 'Lato', 'Futura';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    gap: 30px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: flex-end;
+    color: #feffff;
+}
+
+.logo img{
+    width: 13%;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed; 
+    width: 93%; 
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.center{
+    background-color:#e6e7ea;
+    border-radius: 500px;
+    padding: 100px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+    margin-top: 235px;
+    margin-bottom: 60px;
+}
+
+.sub-caption{
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    left: 102px;
+    border-radius: 10px;    
+}
+
+.sub-caption h1{
+    margin-bottom: 0px;
+    color: #d1dbe5;
+    background: rgba(76, 115, 141, 0.3); 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sub-caption hr{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border-color: #aeb6bf;
+}
+
+.space{
+    height: 440px;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    color: white;
+    align-items: center;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px; 
+    margin-top: 160px;
+    margin-bottom: 300px;
+}
+
+.title h1{
+    color: #feffff; 
+    font-size: 2cm;
+}
+
+.title1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 200px;
+    background: rgba(2, 56, 85, 0.3); 
+    padding: 10px;   
+    border-radius: 100px;
+    margin-left: -100px;
+    margin-right: 400px;
+    margin-bottom: 60px;
+}
+
+.title1 h1{
+    color: #feffff; 
+    font-size: 1.3cm;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    justify-content: center;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.function img, .function_2 img, .function_3 img, .function_4 img{
+    width: 200px;
+}
+
+.above, .below, .above_2, .below_2, .above_3, .below_3, .above_4, .below_4{
+    width: 200px;
+}
+
+.function2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #154360;
+    background: rgba(0, 10, 16, 0.3); 
+    border-radius: 20px;
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+.function, .function_2, .function_3, .function_4, .function_5, .function_6, .function_7, .function_8{
+    background-color: #dfe1e4;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.function_5 img, .function_6 img, .function_7 img, .function_8 img{
+    width: 200px;
+}
+
+.above_5, .below_5, .above_6, .below_6, .above_7, .below_7, .above_8, .below_8{
+    width: 200px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.function3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    color: #154360;
+    background: rgba(0, 10, 16, 0.3); 
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.title2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 190px;
+    margin-bottom: 45px;
+    background: rgba(2, 56, 85, 0.3); 
+    padding: 10px;   
+    border-radius: 100px;
+    margin-left: 400px;
+    margin-right: -100px;
+}
+
+.title2 h1{
+    color: #feffff; 
+    font-size: 1.3cm;
+}
+
+.tutorial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* tidak boleh ada yang dirubah dibagian ini */
+/* silahkan baca instruksi di htmlnya */
+/* step */
+.step{
+    display: flex;
+    flex-direction: row;
+}
+/* step */
+
+/* jika ingin ke bagian kanan */
+.step#kanan{
+    flex-direction: row-reverse;
+}
+.step#kanan .first{
+    flex-direction: row-reverse;
+}
+/* jika ingin ke bagian kanan */
+
+/* bagian gambar */
+.step .first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 49%;
+    justify-content: end;
+    color:#ebedef;
+}
+.step .first .content_left{
+    text-align: center;
+    width: fit-content;
+}
+.step .first .content_left img{
+    width: 33%;
+}
+/* bagian gambar */
+
+/* pilih gambar mau row atau column */
+#column{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+#row{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+}
+/* pilih gambar mau row atau column */
+
+/* jika gambar tidak menempel, maka tambahkan ini di class anda (Parents Gambarnya) */
+.column_right{
+    align-items: end;
+}
+.column_left{
+    align-items: start;
+}
+/* jika gambar tidak menempel, maka tambahkan ini di class anda (Parents Gambarnya) */
+
+
+/* bagian teks */
+.step .first .content_right{
+    width: 25%;
+    text-align: center;
+}
+.step .first .content_right hr{
+    height: 5px;
+    background-color: #283747;
+    border: 0px;
+}
+/* bagian teks */
+
+/* bagian tiang */
+.step .second{
+    width: 2%;
+    background-color: #283747;
+}
+/* bagian tiang */
+/* tidak boleh ada yang dirubah dibagian ini */
+
+.newstep{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step_new{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.step_new h1{
+    color:#a5bfd4;
+}
+
+.step_new h3{
+    color:#feffff;
+}
+
+.L{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+}
+
+.M{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.M img{
+    width: 225px;
+}
+
+.R{
+    display: flex; 
+    width: 100%;
+}
+
+.line{
+    margin: auto;
+    width: 10px;
+    height: 750%;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+}
+
+.bottom_line{
+    height: 10px;
+    background-color: whitesmoke;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    width: 50%;
+    position: relative;
+    left: 0;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #012c57;
+}
+
+.synopsis{
+    width: 50%;
+    padding: 40px;
+    color: whitesmoke;
+}
+
+.synopsis h1{
+    padding-left: 50px;
+}
+
+.synopsis p{
+    padding-left: 50px;
+    color: rgb(208, 204, 204);
+}
+
+.synopsis img{
+    width: 25%;
+}
+
+.contact{
+    margin-top: 147px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;  
+    color: whitesmoke;
+}
+
+a{
+    color: white;
+}

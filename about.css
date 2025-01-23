@@ -1,0 +1,350 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assests/bg.png');
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Open Sans', 'Alegreya', 'Roboto', 'Helvetica', 'Lato', 'Futura';
+}
+
+.container{
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: flex-end;
+    color: #feffff;
+}
+
+.logo img{
+    width: 13%;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed; 
+    width: 92%; 
+    height: 60px;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px; 
+    margin-top: 240px;
+}
+
+.title h1{
+    color: white;
+    font-size: 2cm;
+    padding: 13px;
+}
+
+.content{
+    margin-top: 140px;
+    margin-bottom: 400px;
+}
+
+.mission{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.mission .sec_1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mission .sec_1 .title_2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #e4e6eb;
+    width: 30%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mission .sec_1 .exp{
+    display: flex;
+    width: 70%;
+}
+
+.mission .sec_2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mission .sec_2 .slide{
+    display: flex;
+    width: 80%;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.mission .sec_2 .slide img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(250, 251, 252, 0.1); 
+}
+
+.mission .sec_2 .list{
+    display: flex;
+    width: 20%;
+    position: relative;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    color: #e4e6eb;
+}
+
+.mission .sec_2 .list li select{
+    color: #6a9dcb;
+}
+
+.mission .sec_2 .list li.not{
+    color: rgb(216, 216, 216);
+    opacity: 0.3;
+}
+
+.mission .sec_3{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.mission .sec_3 .sub_capt{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+
+.mission .sub_capt .line{
+    width: 80px;
+    height: 4px;
+}
+
+.mission .sub_capt .line hr{
+    width: 100%;
+    height: 100%;
+    background-color: #c3c7ca;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(250, 251, 252, 0.1); 
+}
+
+.mission .sub_capt .sub{
+    color: #e4e6eb;
+}
+
+.mission .sec_3 .capt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: #e4e6eb;
+    padding-left: 60px; 
+    padding-right: 60px;
+}
+/* mission box */
+
+.personal_bg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.personal_bg .sec_1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 70px;
+}
+
+.personal_bg .sec_1 .title_2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #e4e6eb;
+    width: 30%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.personal_bg .sec_1 .exp{
+    display: flex;
+    width: 70%;
+}
+
+.personal_bg .sec_2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.personal_bg .sec_2 .slide{
+    display: flex;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.personal_bg .sec_2 .slide img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 0px 5px 5px rgba(250, 251, 252, 0.1); 
+}
+
+.personal_bg .sec_2 .list{
+    display: flex;
+    width: 20%;
+    position: relative;
+    left: 50px;
+    right: 30px;
+    top: 30px;
+    color: #e4e6eb;
+}
+
+.personal_bg .sec_2 .list li select{
+    color: #6a9dcb;
+}
+
+.personal_bg .sec_2 .list li.not{
+    color: rgb(35, 35, 35);
+    opacity: 0.3;
+}
+
+.personal_bg .sec_3{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.personal_bg .sec_3 .sub_capt{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.personal_bg .sub_capt .line{
+    margin-left: 76%;
+    width: 80px;
+    height: 4px;
+}
+
+.personal_bg .sub_capt .line hr{
+    width: 100%;
+    height: 100%;
+    background-color: #c3c7ca;
+    border-radius: 100px;
+}
+
+.personal_bg .sub_capt .sub{
+    color: #e4e6eb;
+}
+
+.personal_bg .sec_3 .capt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: #e4e6eb;
+    padding-left: 60px; 
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+/* personal background box */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #012c57;
+}
+
+.synopsis{
+    width: 50%;
+    padding: 40px;
+    color: whitesmoke;
+}
+
+.synopsis h1{
+    padding-left: 50px;
+}
+
+.synopsis p{
+    padding-left: 50px;
+    color: rgb(208, 204, 204);
+}
+
+.synopsis img{
+    width: 25%;
+}
+
+.contact{
+    margin-top: 147px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;  
+    color: whitesmoke;
+}
+
+a{
+    color: white;
+}
