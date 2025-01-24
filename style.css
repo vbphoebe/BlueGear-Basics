@@ -135,6 +135,10 @@ body{
     color: whitesmoke;
 }
 
+.synopsis img{
+    width: 20%;
+}
+
 .synopsis h1, p{
     padding-left: 50px;
 }
