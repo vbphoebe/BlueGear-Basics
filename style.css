@@ -44,6 +44,10 @@ body{
     color: white;
 }
 
+.logo img{
+    width: 25%;
+}
+
 .container h2{
     margin-top: 16px;
 }
@@ -133,6 +137,10 @@ body{
     width: 50%;
     padding: 40px;
     color: whitesmoke;
+}
+
+.synopsis{
+    width: 25%;
 }
 
 .synopsis h1, p{
