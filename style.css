@@ -1,0 +1,162 @@
+body{
+    background-image: url('assests//frontpage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Open Sans', 'Alegreya', 'Roboto', 'Helvetica', 'Lato', 'Futura';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.first_page{
+    width: 100%;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed; 
+    width: 93%; 
+    height: 60px;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: flex-end;
+    width: 100%;
+    color: white;
+}
+
+.container h2{
+    margin-top: 16px;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 800px;
+}
+
+.quote h1{
+    color: #1b4b7b; 
+    background-color: #e9e9ec;
+    margin-bottom: 0%;
+    padding: 200px;
+    box-shadow: 10px 0px 10px 0px #fdfdfea7;
+    text-align: center;
+}
+
+.introduction{
+    background-color: #1b4b7b;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+
+.left{
+    padding: 30px;
+    width: 30%;
+    text-align: left;
+    color: whitesmoke; 
+}
+
+.left h1{
+    font-size: 60px;
+}
+
+.left p{
+    font-size: 18px;
+}
+
+.left #first{
+    margin-top: 150px;
+}
+
+.right img{
+   width: 110%;
+}
+
+.quote2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.quote2 h1{
+    color: #1b4b7b; 
+    background-color: #e0e7ed;
+    box-shadow: 12px 0px 10px 0px #fdfdfea7;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 200px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #012c57;
+}
+
+.synopsis{
+    width: 50%;
+    padding: 40px;
+    color: whitesmoke;
+}
+
+.synopsis h1, p{
+    padding-left: 50px;
+}
+
+.synopsis p{
+    color: rgb(208, 204, 204);
+}
+
+.synopsis img{
+    width: 25%;
+}
+
+.contact{
+    margin-top: 147px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;  
+    color: whitesmoke;
+}
+
+a{
+    color: white;
+}
