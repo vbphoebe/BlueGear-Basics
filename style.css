@@ -44,6 +44,10 @@ body{
     color: white;
 }
 
+.logo img{
+    width: 13%;
+}
+
 .container h2{
     margin-top: 16px;
 }
